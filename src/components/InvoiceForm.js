@@ -48,7 +48,7 @@ class InvoiceForm extends React.Component {
   }
   handleRowDel(items) {
     var index = this.state.items.indexOf(items);
-    this.state.items.splice(index, 1);
+    this.state.items.splice(index, 1);//test
     this.setState(this.state.items);
   };
   handleAddEvent(evt) {

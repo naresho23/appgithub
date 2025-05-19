@@ -11,7 +11,7 @@ import jsPDF from 'jspdf'
 
 function GenerateInvoice() {
   html2canvas(document.querySelector("#invoiceCapture")).then((canvas) => {
-    const imgData = canvas.toDataURL('image/png', 1.0);
+    const imgData = canvas.toDataURL('image/png', 1.0);//test
     const pdf = new jsPDF({
       orientation: 'portrait',
       unit: 'pt',

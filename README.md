@@ -28,7 +28,7 @@ npm start / npm run build
 
 - [x] Calculate Tax and Discounts
 
-- [ ] Store invoices in Firebase DB
+- [ ] Store invoices in Firebase DB,
 
 
 ### Meta
